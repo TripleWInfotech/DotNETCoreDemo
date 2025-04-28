@@ -1,4 +1,8 @@
 # ASP.NET Core (.NET Framework)
+- task: DotNetCoreCLI@2
+  inputs:
+    azureSubscription: 'Pay-As-You-Go(1)(47efcf8e-7f88-4135-b062-60083d07a96a)'
+    command: 'build'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
